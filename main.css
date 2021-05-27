@@ -61,12 +61,12 @@ body {
 }
 
 .name-headline {
-  margin-top:-140px;
-  height:190px;
+  margin-top:-190px;
+  height:220px;
 }
 
 h2{
-  padding-bottom: 100px;
+  padding-bottom: 145px;
 }
 
 ul {
@@ -84,4 +84,12 @@ h1, h2{
 
 p{
   text-align:center;
+}
+
+.about{
+  padding: 5px 5px 5px 5px;
+}
+
+.links{
+  padding: 5px 5px 5px 5px;
 }
