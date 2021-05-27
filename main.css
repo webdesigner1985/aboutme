@@ -61,7 +61,7 @@ body {
 }
 
 .name-headline {
-  margin-top:-160px;
+  margin-top:-140px;
   height:190px;
 }
 
@@ -80,4 +80,8 @@ li{
 
 h1, h2{
   color:white;
+}
+
+p{
+  text-align:center;
 }
