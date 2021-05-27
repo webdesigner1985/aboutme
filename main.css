@@ -5,3 +5,79 @@
   box-sizing: border-box;
   font-size: 100%;
 }
+
+/*doboz szinezés*/
+
+.aboutme {
+  background-color: hsla(159, 66%, 27%, 0.18);
+}
+
+.head {
+  background-color: hsla(146, 100%, 51%, 0.18);
+}
+
+.name-headline {
+  background-color: hsla(277, 100%, 27%, 0.18);
+}
+
+.content {
+  background-color: hsla(16, 66%, 19%, 0.18);
+}
+
+.about {
+  background-color: hsla(350, 0%, 19%, 0.19);;
+}
+
+.links {
+  background-color: hsla(350, 85%, 58%, 0.19);
+}
+
+
+img {
+  width: 500px;
+  height: 480px;
+  border-radius: 10%;
+}
+
+.aboutme {
+  width:500px;
+  max-width: calc(100vw - 10px);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.name-headline, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.head, .links{
+  text-align:center;
+}
+
+.name-headline {
+  margin-top:-160px;
+  height:190px;
+}
+
+h2{
+  padding-bottom: 100px;
+}
+
+ul {
+  list-style-type:none;
+}
+
+li{
+  display:inline;
+  padding: 10px;
+}
+
+h1, h2{
+  color:white;
+}
