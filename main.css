@@ -7,7 +7,7 @@
 }
 
 /*doboz szinezés*/
-
+/*
 .aboutme {
   background-color: hsla(159, 66%, 27%, 0.18);
 }
@@ -31,17 +31,22 @@
 .links {
   background-color: hsla(350, 85%, 58%, 0.19);
 }
-
+*/
 
 img {
-  width: 500px;
-  height: 480px;
+  width: 496px;
+  height: 475px;
   border-radius: 10%;
 }
 
 .aboutme {
   width:500px;
   max-width: calc(100vw - 10px);
+  background: url('https://cdn.pixabay.com/photo/2016/02/19/11/33/trees-1209774_960_720.jpg') no-repeat center center fixed;
+  background-size: cover;
+  border-radius:10%;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
 }
 
 body {
@@ -49,6 +54,7 @@ body {
   display: flex;
   justify-content: center;
   align-items:center;
+  background: url('https://cdn.pixabay.com/photo/2016/02/19/11/33/trees-1209774_960_720.jpg') center center fixed;
 }
 
 .name-headline, .content {
@@ -61,8 +67,9 @@ body {
 }
 
 .name-headline {
-  margin-top:-190px;
-  height:220px;
+  margin-top:-210px;
+  height:240px;
+  line-height:20px;
 }
 
 h2{
@@ -92,4 +99,8 @@ p{
 
 .links{
   padding: 5px 5px 5px 5px;
+}
+
+h1{
+  font-size:20px;
 }
