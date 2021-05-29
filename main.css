@@ -34,16 +34,15 @@
 */
 
 img {
-  width: 400px;
-  height: 380px;
+  width: 340px;
+  height: 330px;
   border-radius: 10%;
-  transition: all 0.5s ease-in-out
+  transition: all 0.5s ease-in-out;
 }
 
 img:hover{
-  width: 496px;
-  height: 475px;
-  transform: scale(1.1);
+  width: 450px;
+  height: 440px;
 }
 
 .aboutme {
@@ -52,8 +51,7 @@ img:hover{
   background: url('https://cdn.pixabay.com/photo/2016/02/19/11/33/trees-1209774_960_720.jpg') no-repeat center center fixed;
   background-size: cover;
   border-radius:10%;
-  border-left: 2px solid white;
-  border-right: 2px solid white;
+  border: 1px solid gray;
 }
 
 body {
@@ -74,7 +72,7 @@ body {
 }
 
 .name-headline {
-  margin-top:-230px;
+  margin-top:-180px;
   height:280px;
   line-height:20px;
 }
@@ -90,6 +88,11 @@ ul {
 li{
   display:inline;
   padding: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+li:hover{
+  transform: scale(1.1);
 }
 
 h1, h2{
@@ -103,6 +106,7 @@ p{
 
 .about{
   padding: 5px 5px 5px 5px;
+  transition: all 0.5s ease-in-out;
 }
 
 .links{
@@ -110,14 +114,58 @@ p{
 }
 
 h1{
-  font-size:25px;
-  padding-left: 70px;
+  font-size:20px;
+  padding-left: 50px;
 }
 
 .school{
-  font-size:25px;
+  padding-left: 10px;
+  font-size:15px;
 }
 
 h2{
-  padding-left:60px;
+  padding-left:30px;
+}
+
+a{
+  color:rgba(0, 255, 255,.9);
+}
+
+a:hover{
+  color:rgba(255, 127, 133,.5);
+}
+
+.map{
+  color:white;
+  font-size:16px;
+  font-family: 'Pattaya', sans-serif; 
+}
+
+p{
+  line-height:20px;
+  font-size:16px;
+  color:white;
+  font-family: 'Pattaya', sans-serif;  
+}
+
+.about:hover{
+  font-size: 5px;
+  transform: scale(1.6);
+}
+
+.fa{
+  transition: all 0.5s ease-in-out;
+}
+
+.fa:hover{
+  transform: scale(1.2);
+}
+
+.from{
+  transition:all 5s;
+  line-height: 20px;
+}
+
+.from:hover{
+  transform: rotate(360deg);
 }
