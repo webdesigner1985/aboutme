@@ -94,6 +94,7 @@ li{
 
 h1, h2{
   color:white;
+  font-family: 'Pattaya', sans-serif;
 }
 
 p{
@@ -109,8 +110,12 @@ p{
 }
 
 h1{
-  font-size:20px;
+  font-size:25px;
   padding-left: 70px;
+}
+
+.school{
+  font-size:25px;
 }
 
 h2{
