@@ -151,6 +151,7 @@ p{
 .about:hover{
   font-size: 5px;
   transform: scale(1.6);
+  color:rgb(127, 255, 249)
 }
 
 .fa{
