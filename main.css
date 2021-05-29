@@ -41,13 +41,14 @@ img {
 }
 
 img:hover{
-  width: 450px;
-  height: 440px;
+  width: 420px;
+  height: 400px;
 }
 
 .aboutme {
   width:500px;
   max-width: calc(100vw - 10px);
+  max-height: calc(100vh - 10px);
   background: url('https://cdn.pixabay.com/photo/2016/02/19/11/33/trees-1209774_960_720.jpg') no-repeat center center fixed;
   background-size: cover;
   border-radius:10%;
@@ -163,7 +164,7 @@ p{
 }
 
 .from{
-  transition:all 5s;
+  transition:all 3s;
   line-height: 20px;
 }
 
